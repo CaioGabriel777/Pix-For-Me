@@ -1,0 +1,19 @@
+# Ignora o diretório de build do Maven local
+target/
+
+# Ignora arquivos de log
+*.log
+
+# Ignora a configuração do Git
+.git
+.gitignore
+
+# Ignora arquivos de configuração de IDEs
+.idea/
+*.iml
+*.project
+.settings/
+
+# Ignora os wrappers do Maven (não são necessários no build do Docker)
+mvnw
+mvnw.cmd
