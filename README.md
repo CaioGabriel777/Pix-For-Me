@@ -31,6 +31,7 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 
 -   **[Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html):** Linguagem de programação principal.
 -   **[Spring Boot 3](https://spring.io/projects/spring-boot):** Framework para criação de aplicações Java de forma rápida e robusta.
+-   **[Docker](https://www.docker.com/):** Ferramenta para containerização da aplicação, garantindo um ambiente de execução consistente e facilitando o deploy.
 -   **[Spring Web](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html):** Módulo para criação de APIs RESTful.
 -   **[Maven](https://maven.apache.org/):** Ferramenta para gerenciamento de dependências e build do projeto.
 -   **[ZXing (Zebra Crossing)](https://github.com/zxing/zxing):** Biblioteca para geração de QR Codes.
