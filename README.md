@@ -42,7 +42,6 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 ## 🕹️ Como Usar a API
 
 A API expõe dois endpoints principais para a geração de cobranças PIX.
-URL: https://pix-for-me.onrender.com
 
 ### 1. Gerar QR Code PIX
 
@@ -52,7 +51,7 @@ Este endpoint retorna uma imagem PNG do QR Code.
 -   **Parâmetro:** `valor` (obrigatório) - O valor da transação. Exemplo: 25.00.
 -   **Resposta de Sucesso (200 OK):** Uma imagem PNG.
 
-**Exemplo de uso com 25,00 reais (URL para o navegador ou cliente de API): http://152.67.45.99:8080/api/pix/qrcode?valor=25.00**
+**Exemplo de uso com 25,00 reais (URL para o navegador ou cliente de API): https://pixforme.com.br/api/pix/qrcode?valor=25.00**
 
 ### 2. Gerar PIX Copia e Cola
 
@@ -62,4 +61,4 @@ Este endpoint retorna uma string copia e cola.
 -   **Parâmetro:** `valor` (obrigatório) - O valor da transação. Exemplo: 25.00. 
 -   **Resposta de Sucesso (200 OK):** Uma string de texto (`text/plain`).
 
-**Exemplo de uso com 25,00 reais (URL para o navegador ou cliente de API): http://152.67.45.99:8080/api/pix/copia-e-cola?valor=25.00**
+**Exemplo de uso com 25,00 reais (URL para o navegador ou cliente de API): https://pixforme.com.br/api/pix/copia-e-cola?valor=25.00**
